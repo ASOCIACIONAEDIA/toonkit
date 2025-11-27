@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
 authors = [
-    {name = "AEDIA", email = "info@aedia.com"}
+    {name = "AEDIA", email = "aedia@aedia.es"}
 ]
 keywords = ["toon", "json", "llm", "tokenization", "ai", "benchmark", "streaming"]
 classifiers = [

@@ -629,7 +629,8 @@ MIT License - ve [LICENSE](LICENSE) para detalles.
 
 - **Issues**: https://github.com/aedia/toonkit/issues
 - **Discussions**: https://github.com/aedia/toonkit/discussions
-- **Email**: info@aedia.com
+- **Email**: aedia@aedia.es
+- **Contact**: info@aedia.com
 
 ---
 

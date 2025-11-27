@@ -329,7 +329,8 @@ Si tienes problemas:
 
 1. Lee la [documentación oficial de PyPI](https://packaging.python.org/tutorials/packaging-projects/)
 2. Abre un issue en GitHub
-3. Email: info@aedia.com
+3. Email: aedia@aedia.es
+4. Contact: info@aedia.com
 
 ---
 
