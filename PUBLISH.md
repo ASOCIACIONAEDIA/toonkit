@@ -4,19 +4,14 @@ Instrucciones paso a paso para publicar **toonkit** en PyPI.
 
 ---
 
-## ✅ Pre-requisitos
+## ✅ Status Actual (v0.1.0)
 
-1. **Cuenta en PyPI**
-   - Crea cuenta en https://pypi.org/account/register/
-   - Verifica tu email
-   
-2. **Cuenta en TestPyPI** (opcional, recomendado)
-   - Crea cuenta en https://test.pypi.org/account/register/
+✅ **TOONKIT ya está publicado en PyPI!**
 
-3. **Token API**
-   - Ve a https://pypi.org/manage/account/token/
-   - Crea un token con scope "Entire account"
-   - Guárdalo de forma segura (solo se muestra una vez)
+- 📦 PyPI: https://pypi.org/project/toonkit/
+- 📥 Instalar: `pip install toonkit`
+- 📊 Tests: 62 tests passing, 68% coverage
+- 🚀 Versión: 0.1.0 (Beta)
 
 ---
 
