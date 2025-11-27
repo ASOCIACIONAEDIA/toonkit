@@ -21,7 +21,7 @@ Convierte datos JSON a **TOON (Token-Oriented Object Notation)** y reduce el uso
 - [API Reference](#-api-reference)
 - [Configuración](#-configuración)
 - [Testing](#-testing)
-- [Publicar en PyPI](#-publicar-en-pypi)
+
 - [Roadmap](#-roadmap)
 
 ---
@@ -517,55 +517,6 @@ def test_fuzz_roundtrip(data):
 - ✅ Sin crashes, solo excepciones controladas
 
 ---
-
-## 📤 Publicar en PyPI
-
-### Setup
-
-1. **Crear cuenta en PyPI**: https://pypi.org/account/register/
-
-2. **Configurar token API**:
-
-```bash
-# Crear ~/.pypirc
-[pypi]
-username = __token__
-password = pypi-AgEIcHlwaS5vcmcC...  # Tu token
-```
-
-3. **Build y Upload**:
-
-```bash
-# Instalar herramientas
-pip install build twine
-
-# Build distribución
-python -m build
-
-# Test en TestPyPI (opcional)
-twine upload --repository testpypi dist/*
-
-# Upload a PyPI (producción)
-twine upload dist/*
-```
-
-4. **Verificar instalación**:
-
-```bash
-pip install toonkit
-python -c "from toonkit import encode; print(encode({'test': 42}))"
-```
-
-### Versioning
-
-Seguimos **Semantic Versioning** (`MAJOR.MINOR.PATCH`):
-
-- `0.1.0` - Beta inicial
-- `0.2.0` - Nuevas features (streaming, CLI)
-- `0.2.1` - Bug fixes
-- `1.0.0` - Producción estable
-
-Actualizar versión en `pyproject.toml` antes de cada release.
 
 ---
 
